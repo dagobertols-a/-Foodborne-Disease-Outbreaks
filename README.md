@@ -20,7 +20,7 @@ https://wwwn.cdc.gov/foodborneoutbreaks/
 
 Approach:
 
-Regression analysis, classification
+Classification
 
 Deliverables:
 
