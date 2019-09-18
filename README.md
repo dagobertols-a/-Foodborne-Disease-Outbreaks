@@ -20,11 +20,15 @@ https://wwwn.cdc.gov/foodborneoutbreaks/
 
 Approach:
 
-Classification
+Classification on Unbalanced datasets by using resampling methods
 
 Deliverables:
 
-It could be interesting to explore the relation among variables like: food vehicle, state and month in order to predict where, when and the characteristics of outbreaks.
+It could be interesting to explore the relation among variables like: food vehicle, specie, location, month in order to predict where, when and the characteristics of outbreaks and if these outbreaks would produce hospitalizations and/or deaths.
+
+Overview:
+
+The goal of this project is to determine whether an outbreak will produce hospitalizations or not. Since there are few cases of hospitalizations(unbalanced dataset) it is necessary to use special techniques to deal with this type of problem. Here, I use resampling methods, specifically a kind of  over-sampling algorithm named SMOTE. By using this procedure I get an f1-score = 71% on the test set.
 
 Previous publications:
 
